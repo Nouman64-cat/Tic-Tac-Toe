@@ -60,3 +60,23 @@
   background-color: rgb(104, 4, 129);
   color: rgb(231, 200, 200);
 }
+@media screen and (max-width: 680px) {
+  .board-row{
+    width: 40%;
+
+  }
+  .title h1{
+    font-size: 5.5rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .board-row{
+    width: 60%;
+    height: 65px;
+  }
+  .title h1{
+    font-size: 3.5rem;
+  }
+  .btn{
+    font-size: 1.1rem;
+  }
