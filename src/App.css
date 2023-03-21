@@ -1,0 +1,60 @@
+.status{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -0.5rem;
+  font-family: 'Philosopher';
+  color: rgb(226, 210, 210);
+  
+}
+.title{
+  margin-bottom: 0;
+}
+
+.title h1{
+  font-family: 'Philosopher';
+  font-size: 3rem;
+  color: rgb(231, 200, 200);
+}
+
+.board-row{
+  margin-top: 0.1rem;
+  display: flex;
+  width: 20%;
+  height: 40px;
+  column-gap: 0.1rem;
+}
+.square{
+  width: 100%;
+  height: 100%;
+  background: rgb(231, 200, 200);
+  border: none;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  color: rgb(104, 4, 129);
+  font-size: 1.5rem;
+  font-family: 'Philosopher';
+  cursor: pointer;
+}
+
+.btn{
+  border: none;
+  border-radius: 9rem;
+  -webkit-border-radius: 9rem;
+  -moz-border-radius: 9rem;
+  -ms-border-radius: 9rem;
+  -o-border-radius: 9rem;
+  background-color: rgb(231, 200, 200);
+  color: rgb(104, 4, 129);
+  padding: 0.3rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(104, 4, 129);
+  color: rgb(231, 200, 200);
+}
