@@ -6,6 +6,7 @@
   margin-top: -0.5rem;
   font-family: 'Philosopher';
   color: rgb(226, 210, 210);
+  font-size: 2rem;
   
 }
 .title{
@@ -14,16 +15,16 @@
 
 .title h1{
   font-family: 'Philosopher';
-  font-size: 3rem;
+  font-size: 6rem;
   color: rgb(231, 200, 200);
 }
 
 .board-row{
-  margin-top: 0.1rem;
+  margin-top: 0.19rem;
   display: flex;
   width: 20%;
-  height: 40px;
-  column-gap: 0.1rem;
+  height: 80px;
+  column-gap: 0.19rem;
 }
 .square{
   width: 100%;
@@ -53,6 +54,7 @@
   padding: 0.3rem 1rem;
   margin-top: 1rem;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 .btn:hover{
   background-color: rgb(104, 4, 129);
