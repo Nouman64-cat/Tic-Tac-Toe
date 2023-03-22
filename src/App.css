@@ -11,18 +11,31 @@
 }
 .title{
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
-
+.board-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 .title h1{
   font-family: 'Philosopher';
   font-size: 6rem;
   color: rgb(231, 200, 200);
 }
-
-.board-row{
-  margin-top: 0.19rem;
+.board{
   display: flex;
-  width: 20%;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 22rem;
+}
+.board-row{
+  display: flex;
+  margin-top: 0.19rem;
+  width: 38%;
   height: 80px;
   column-gap: 0.19rem;
 }
@@ -80,3 +93,4 @@
   .btn{
     font-size: 1.1rem;
   }
+}
